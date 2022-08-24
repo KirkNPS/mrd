@@ -2,6 +2,6 @@
 API Reference
 =============
 
-.. automodule:: py_dev_init
+.. automodule:: mrd
     :undoc-members:
     :members:

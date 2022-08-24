@@ -22,7 +22,7 @@ repo_name = Path(
     .strip()
 ).stem
 
-source_path = project_path / repo_name
+source_path = project_path / "src"
 
 # Add path for sphinx to find
 sys.path.extend([str(docs_path), str(project_path), str(source_path)])

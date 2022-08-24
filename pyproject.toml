@@ -1,9 +1,13 @@
 [tool.poetry]
-name = "py-dev-init"
-version = "0.3.0"
-description = "Kickstart repo"
+name = "mrd"
+version = "0.0.1"
+description = "magic redis dictionary"
 authors = ["Viktor Freiman <freiman.viktor@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "mrd", from = "src" },
+]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.6.2"
